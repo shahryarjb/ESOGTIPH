@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  <h2><%= gettext "خوش آمدید به   %{name}!", name: "Phoenix" %></h2>
+  <h3><%= gettext "این یک آموزش چند زبانه سازی برای  %{company}!", company: "Trangell" %></h3>
+  <p><%= ngettext "شما یک پیام دارید", "شما دارین %{count} پیام", 2 %></p>
+  <p><%= dgettext "system", "خروجی سیستم ما: %{msg}", msg: "trangell" %></p>
+</div>
+
